@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #be0000;
+}
+
+.galeria{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+
+.caixa-imagens{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: .5s;
+}
+
+.caixa-imagens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+    border-radius: 5%;
+}
+
+.caixa-imagens:hover{
+    flex-basis: 50%;
+}
+
+.ativa{
+    flex-basis: 50%;
+}
+
+.galeria:hover .ativa{
+    flex-basis: 0;
+}
+
+.caixa-imagens:nth-child(1):hover{
+    flex-basis: 50%;
+}
+
+hr{
+   border-color: #be0000;
+}

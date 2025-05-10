@@ -1,0 +1,67 @@
+.foto{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    margin: 150px auto;
+}
+
+.pedaco{
+    flex-basis: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: 2s;
+    box-shadow: 27px 41px 13px 4px rgba(0, 0, 0, 0.10);
+}
+.pedaco img{
+    width: 100px;
+}
+
+.pedaco::after{
+    content: "";
+    width: 99.5px;
+    height:30px;
+    bottom: -25px;
+    left: 7px;
+    position: absolute;
+    background: #000000;
+    transform: skewX(26deg);
+}
+.pedaco::before{
+    content: "";
+    width: 15px;
+    height: 113px;
+    right: -12px;
+    top: 15px;
+    position: absolute;
+    background: #000000;
+    transform: skewY(65deg);
+}
+
+.foto:hover .pedaco:nth-child(1){
+    transform: translate(60px, 230px) rotate(360deg);
+}
+.foto:hover .pedaco:nth-child(2){
+    transform: translate(-260px, -150px) rotate(360deg);
+}
+.foto:hover .pedaco:nth-child(3){
+    transform: translate(91px, 295px);
+}
+.foto:hover .pedaco:nth-child(4){
+    transform: translate(440px, -220px);
+}
+.foto:hover .pedaco:nth-child(5){
+    transform: translate(100px, -120px);
+}
+.foto:hover .pedaco:nth-child(6){
+    transform: translate(-370px, 320px);
+}
+.foto:hover .pedaco:nth-child(7){
+    transform: translate(0px, -480px);
+}
+.foto:hover .pedaco:nth-child(8){
+    transform: translate(-280px, -40px);
+}
+.foto:hover .pedaco:nth-child(9){
+    transform: translate(400px, -120px);
+}

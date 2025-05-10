@@ -1,0 +1,160 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: #fff4e5;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #575757;
+    cursor: pointer;
+}
+.logo img{
+    width: 40px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.active{
+    color: #6c00e0 !important; 
+}
+
+.login-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #2f2f2f;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff4e5, #fff4e5),radial-gradient(circle at top left, #00b478, #6c00e0);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+.login-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #212121;
+}
+
+.textinho{
+    width: 50%;
+    float: left;
+}
+
+.textinho h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.textinho p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #777777;
+}
+
+.foto{
+    width: 50%;
+    float: right;
+}
+.foto img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.play-btn-dentro{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#fff4e5, #fff4e5),radial-gradient(circle at top left, #00b478, #6c00e0);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+}
+.play-btn-dentro .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #6c00e0;
+    letter-spacing: 3px;
+}
+
+.links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #00b478, #6c00e0);
+}
+
+.links ul{
+    display: inline-flex;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer; 
+}
+
+.links ul li .fa{
+    font-size: 25px;
+    color: #fff;
+}
+
+.links ul li .p{
+    margin-top: 15px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.social-icons{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons ul li a{
+    color: #999;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
+}
